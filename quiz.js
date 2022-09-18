@@ -1,4 +1,4 @@
-const submit = document.querySelector("#submit");
+const submit = document.querySelector(".check-btn");
 const output = document.querySelector("#output");
 const quizForm = document.querySelector(".quiz-form");
 
