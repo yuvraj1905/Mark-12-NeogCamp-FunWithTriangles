@@ -29,51 +29,61 @@
       </ul>
     </nav>
     <header class="hero">
-      <img class="hero-img" src="images/react-image.svg" alt="" />
       <h1 class="hero-heading">
         Triangle
-        <span style="color: rgb(199, 144, 76)">Quiz</span>
+        <span style="color: var(--primary-color)">Quiz</span>
       </h1>
     </header>
 
-    <form class="quiz-form">
+    <form class="quiz-form centered_container">
       <div>
         <p>What will be third angle if first two are 45° and 55°?</p>
       </div>
 
-      <label style="display: block" for="">
-        <input type="radio" name="questionOne" value="60°" />60°
+      <label style="display: block" for="q1option1">
+        <input type="radio" name="questionOne" id="q1option1" value="60°" />60°
       </label>
 
-      <label style="display: block" for="">
-        <input type="radio" name="questionOne" value="70°" />70°
+      <label style="display: block" for="q1option2">
+        <input type="radio" name="questionOne" id="q1option2" value="70°" />70°
       </label>
 
-      <label style="display: block" for="">
-        <input type="radio" name="questionOne" value="80°" />80°
+      <label style="display: block" for="q1option3">
+        <input type="radio" name="questionOne" id="q1option3" value="80°" />80°
       </label>
 
       <div>
         <p>Which is the longest side in a right angle triangle?</p>
       </div>
-      <label style="display: block" for="">
-        <input type="radio" name="questionTwo" value="base" />base
-      </label>
-
-      <label style="display: block" for="">
+      <label style="display: block" for="q2option1">
         <input
           type="radio"
+          name="questionTwo"
+          id="q2option1"
+          value="base"
+        />base
+      </label>
+
+      <label style="display: block" for="q2option2">
+        <input
+          type="radio"
+          id="q2option2"
           name="questionTwo"
           value="perpendicular"
         />perpendicular
       </label>
 
-      <label style="display: block" for="">
-        <input type="radio" name="questionTwo" value="hypotenuse" />hypotenuse
+      <label style="display: block" for="q2option3">
+        <input
+          type="radio"
+          name="questionTwo"
+          id="q2option3"
+          value="hypotenuse"
+        />hypotenuse
       </label>
     </form>
-    <button id="submit">Submit Answer</button>
-    <div id="output"></div>
+    <button id="submit" class="check-btn">Submit Answer</button>
+    <h2 class="centered_container" id="output"></h2>
     <script src="quiz.js"></script>
   </body>
 </html>

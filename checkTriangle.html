@@ -6,13 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fun with Triangles</title>
     <link rel="stylesheet" href="style.css" />
-    <style>
-      #output {
-        border: 2px solid black;
-        padding: 0.5rem 1rem;
-        max-width: 300px;
-      }
-    </style>
   </head>
 
   <body>
@@ -38,36 +31,7 @@
         </li>
       </ul>
     </nav>
-    <!-- <ul class="flex border-b">
-      <li class="-mb-px mr-1">
-        <a
-          class="bg-white inline-block border-l border-t border-r rounded-t py-2 px-4 text-blue-700 font-semibold"
-          href="checkTriangle.html"
-          >IsTriangle?</a
-        >
-      </li>
-      <li class="mr-1">
-        <a
-          class="bg-white inline-block py-2 px-4 text-blue-500 hover:text-blue-800 font-semibold"
-          href="triangleQuiz.html"
-          >quiz</a
-        >
-      </li>
-      <li class="mr-1">
-        <a
-          class="bg-white inline-block py-2 px-4 text-blue-500 hover:text-blue-800 font-semibold"
-          href="hypotenuse.html"
-          >Find hypotenuse</a
-        >
-      </li>
-      <li class="mr-1">
-        <a
-          class="bg-white inline-block py-2 px-4 text-gray-400 font-semibold"
-          href="findArea.html"
-          >Area calculator</a
-        >
-      </li>
-    </ul> -->
+
     <header class="hero">
       <img class="hero-img" src="images/react-image.svg" alt="" />
       <h1 class="hero-heading">
@@ -75,19 +39,36 @@
         <span style="color: var(--primary-color)">Triangle?</span>
       </h1>
     </header>
+    <div class="container">
+      <label for="angle-one" class="input-txt">Angle one</label>
+      <input
+        type="Number"
+        class="centered_container"
+        id="angle-one"
+        style="display: block"
+      />
 
-    <label for="angle-one">Angle one</label>
-    <input type="Number" id="angle-one" style="display: block" />
+      <label for="angle-two" class="input-txt">Angle two</label>
+      <input
+        type="Number"
+        class="centered_container"
+        id="angle-two"
+        style="display: block"
+      />
 
-    <label for="angle-two">Angle two</label>
-    <input type="Number" id="angle-two" style="display: block" />
+      <label for="angle-three" class="input-txt">Angle three</label>
+      <input
+        type="Number"
+        class="centered_container"
+        id="angle-three"
+        style="display: block"
+      />
 
-    <label for="angle-three">Angle three</label>
-    <input type="Number" id="angle-three" style="display: block" />
+      <button id="check-btn">Check</button>
 
-    <button id="check-btn">Check</button>
+      <h2 class="centered_container" id="output"></h2>
+    </div>
 
-    <div id="output"></div>
     <script src="app.js"></script>
   </body>
 </html>

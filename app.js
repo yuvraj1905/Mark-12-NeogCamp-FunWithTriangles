@@ -11,13 +11,15 @@ function checkIsTriangle() {
     angleTwo.value === ""
   ) {
     alert("Please enter valid angles for all 3 sides ");
+    return;
   }
 
   const sum =
     Number(angleOne.value) + Number(angleThree.value) + Number(angleTwo.value);
 
   if (sum === 180) {
-    output.innerText = "It is a triangle";
+    output.innerText = "It is a triangle 👍";
+    output.style.color = "#65a30d";
   } else {
     output.innerText = "It is NOT a triangle";
   }
