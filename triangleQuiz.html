@@ -31,13 +31,15 @@
     <header class="hero">
       <h1 class="hero-heading">
         Triangle
-        <span style="color: var(--primary-color)">Quiz</span>
+        <span style="color: rgb(199, 144, 76)">Quiz</span>
       </h1>
     </header>
 
     <form class="quiz-form centered_container">
       <div>
-        <p>What will be third angle if first two are 45° and 55°?</p>
+        <h3 class="quizH3">
+          What will be third angle if first two are 45° and 55°?
+        </h3>
       </div>
 
       <label style="display: block" for="q1option1">
@@ -53,7 +55,9 @@
       </label>
 
       <div>
-        <p>Which is the longest side in a right angle triangle?</p>
+        <h3 class="quizH3">
+          Which is the longest side in a right angle triangle?
+        </h3>
       </div>
       <label style="display: block" for="q2option1">
         <input
@@ -83,7 +87,7 @@
       </label>
     </form>
     <button id="submit" class="check-btn">Submit Answer</button>
-    <h2 class="centered_container" id="output"></h2>
+    <h2 class="centered_container quizH3" id="output"></h2>
     <script src="quiz.js"></script>
   </body>
 </html>

@@ -36,14 +36,26 @@
         <span style="color: rgb(81, 71, 142)">Hypotenuse</span>
       </h1>
     </header>
-    <label for="base">Enter base</label>
-    <input type="number" id="base" style="display: block" />
+    <div class="container">
+      <label for="base" class="input-txt">Enter base</label>
+      <input
+        type="number"
+        class="centered_container"
+        id="base"
+        style="display: block"
+      />
 
-    <label for="perpendicular">Enter perpendicular</label>
-    <input type="number" id="perpendicular" style="display: block" />
+      <label for="perpendicular" class="input-txt">Enter perpendicular</label>
+      <input
+        type="number"
+        class="centered_container"
+        id="perpendicular"
+        style="display: block"
+      />
 
-    <button id="cal-btn">Calculate hypotenuse</button>
-    <div id="output"></div>
+      <button class="check-btn">Calculate hypotenuse</button>
+      <div class="centered_container" id="output"></div>
+    </div>
     <script src="hypotenuse.js"></script>
   </body>
 </html>

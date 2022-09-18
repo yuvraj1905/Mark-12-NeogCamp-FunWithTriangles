@@ -26,11 +26,11 @@ hr {
   border-bottom-right-radius: 0.4rem;
   margin-bottom: 1rem;
 }
-/* .centered_container .input-txt {
+.input-txt {
   display: block;
   text-align: center;
   padding: 0.3rem 0rem;
-} */
+}
 .link {
   text-decoration: none;
   padding: 0.5rem 1rem;
@@ -107,7 +107,7 @@ hr {
 .hero .hero-heading {
   text-align: center;
   color: var(--dark-gray);
-  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 #output {
@@ -142,6 +142,7 @@ hr {
 } */
 
 .quizH3 {
+  margin-top: 0.5rem;
   color: rgb(199, 144, 76);
 }
 

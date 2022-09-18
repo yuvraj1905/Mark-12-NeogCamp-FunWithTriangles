@@ -1,7 +1,7 @@
 const angleOne = document.querySelector("#angle-one");
 const angleTwo = document.querySelector("#angle-two");
 const angleThree = document.querySelector("#angle-three");
-const checkBtn = document.querySelector("#check-btn");
+const checkBtn = document.querySelector(".check-btn");
 const output = document.querySelector("#output");
 
 function checkIsTriangle() {

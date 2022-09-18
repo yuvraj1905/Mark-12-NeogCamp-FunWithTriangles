@@ -31,17 +31,31 @@
     <header class="hero">
       <h1 class="hero-heading">
         Find
-        <span style="color: rgb(81, 71, 142)">Area</span>
+        <span style="color: rgb(185, 46, 51)">Area</span>
       </h1>
     </header>
-    <label for="base">Enter base</label>
-    <input type="number" id="base" style="display: block" />
 
-    <label for="height">Enter height</label>
-    <input type="number" id="height" style="display: block" />
+    <div class="container">
+      <label for="base" class="input-txt">Enter base</label>
+      <input
+        type="number"
+        class="centered_container"
+        id="base"
+        style="display: block"
+      />
 
-    <button id="cal-btn">Calculate Area</button>
-    <div id="output"></div>
+      <label for="perpendicular" class="input-txt">Enter Height</label>
+      <input
+        type="number"
+        class="centered_container"
+        id="height"
+        style="display: block"
+      />
+
+      <button class="check-btn">Calculate Area</button>
+      <div class="centered_container" id="output"></div>
+    </div>
+
     <script src="area.js"></script>
   </body>
 </html>
