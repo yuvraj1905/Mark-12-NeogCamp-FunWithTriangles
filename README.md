@@ -1,18 +1,16 @@
-# Fun with Triangles !
+# Mark-12: Fun With Triangles
 
-- A fun app with 4 sections related to knowledge of triangles.
+## About:
 
-## 1. Is Triangle?
+This app has four sections to test your knowledge about triangles.
+Live link to the application is [here](https://fun-with-triangles-mark12-neogcamp.netlify.app/)
 
-- Asks user to input three angles and the app displays whether user has entered angles which could make a triangle or not!
-
-## 2. Triangle Quiz.
-
-- A short quiz with 2 questions for user to check knowledge of triangles.
-- User also gets their scores displayed after attempting the quiz.
-
-## 3. Calculate hypotenuse?
-
-- User has to enter two legs and the app will tell them the hypotenuse.
-
-## 4. Calculator for area of triangle.
+1. Is Triangle?
+   - User has to input three angles and the app displays angles entered could make a triangle or not!
+2. Triangle Quiz.
+   - A quiz with 5 questions and displays the results accordingly.
+   - There is 1 point for every correct answer.
+3. Calculate hypotenuse?
+   - User has to input basee and perpendicular values and the app will tell them the hypotenuse.
+4. Calculate area of triangle.
+   - User has to input basee and height values and the app will tell them the area of the triangle.
